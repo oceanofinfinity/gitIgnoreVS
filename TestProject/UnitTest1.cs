@@ -80,8 +80,8 @@ namespace TestProject
             };
             Debug.WriteLine("obj3---" + obj3.GetJsonTypeJsonString());
 
-            IEnumerable<IReferenceDataItems> obj4 = new List<IReferenceDataItems> { new SQLReferenceDataSource() };
-            Debug.WriteLine("obj4--" + obj4.GetJsonTypeJsonString());
+           // IEnumerable<IReferenceDataItems> obj4 = new List<IReferenceDataItems> { new SQLReferenceDataSource() };
+            //Debug.WriteLine("obj4--" + obj4.GetJsonTypeJsonString());
         }
 
 
